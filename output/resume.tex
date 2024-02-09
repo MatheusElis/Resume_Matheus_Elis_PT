@@ -1,0 +1,250 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=394b72]
+\definecolor[rulecolor][h=7570b7]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\defineitemgroup[enumerate]
+\setupenumerate[each][fit][itemalign=left,distance=.5em,style={\feature[+][default:tnum]}]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Matheus Elis da
+Silva},reference={matheus-elis-da-silva}]
+
+\thinrule
+
+\startblockquote
+Bacharel em Física com ênfase em Física Computacional pela Universidade
+Federal Fluminense. Engenheiro de Software com experiência em
+desenvolvimento de software, criação e manutenção de processos ETL,
+automação de processos de dados, arquitetura de software em nuvem e
+microserviços.
+\stopblockquote
+
+\thinrule
+
+\subsection[title={Formação Acadêmica},reference={formação-acadêmica}]
+
+\startdescription{2015-2021}
+  {\bf Bacharel, Física com ênfase em Física Computacional};
+  Universidade Federal Fluminense
+
+  {\em Monitor Bolsista no Projeto Sensebiliza (2017-2021)}
+
+  {\em Monografia intitulada: Estudo da Dinâmica da Hanseníase no Norte
+  do Brasil Via Modelagem Baseada em Agentes}
+\stopdescription
+
+\subsection[title={Experiência
+Profissional},reference={experiência-profissional}]
+
+{\bf Desenvolvedor de Software FullStack Pleno: 2RP Net} - {\em out de
+2022 - Atual}
+
+\startitemize[packed]
+\item
+  Desenvolvimento e manutenção de aplicações Backend utilizando as
+  liguagens Python e Golang.
+\item
+  Criação e manutenção de pipelines de ETL para o setor de integração de
+  dados.
+\item
+  Manutenção e gerenciamento de bancos de dados SQL (PostgreSQL, MySQL e
+  OracleDB) e NoSQL (MongoDB, Google Datastore e Redis).
+\item
+  Criação de Microserviços em ambientes de Nuvem (Google Cloud Run,
+  Google Cloud Function e Google Kubernetes Engine).
+\item
+  Monitoramento de aplicações utilizando Grafana, Google Cloud Logging e
+  Google Cloud Monitoring.
+\stopitemize
+
+{\bf Desenvolvedor de Software Back-End Pleno: ZAX} - {\em mar de 2022 -
+set de 2022}
+
+\startitemize[packed]
+\item
+  Desenvolvimento e manutenção de aplicações Back-End utilizando as
+  linguagens Python e NodeJS.
+\item
+  Desenvolvimento do ERP interno da empresa.
+\item
+  Automatização do CI/CD utilizando GitHub Actions e Serverless
+  Framework.
+\item
+  Utilização de ferramentas de Nuvem como AWS Lambda, AWS ECS, AWS Cloud
+  Watch e AWS SQS.
+\item
+  Manutenção e gerenciamento de bancos de dados SQL (PostgreSQL e
+  MySQL).
+\stopitemize
+
+{\bf Desenvolvedor de Software Back-End Pleno: TrackCash} - {\em jun de
+2021 - abr de 2022}
+
+\startitemize[packed]
+\item
+  Desenvolvimento e manutenção de aplicações de automação de dados
+  utilizando Python.
+\item
+  Desenvolvimento e manutenção de aplicações para monitorar rotinas de
+  automação.
+\item
+  Desenvolvimento de aplicações internas de CLI para gerenciar rotinas
+  de ETL.
+\stopitemize
+
+\subsection[title={Habilidades
+Tecnicas},reference={habilidades-tecnicas}]
+
+{\bf Linguagens de Programação}
+
+\startitemize[packed]
+\item
+  Python
+\item
+  JavaScript
+\item
+  TypeScript
+\item
+  Golang
+\item
+  HTML
+\item
+  CSS
+\item
+  Lua
+\item
+  PHP
+\stopitemize
+
+{\bf Frameworks e ferramentas}
+
+\startitemize[packed]
+\item
+  FastAPI
+\item
+  Flask
+\item
+  Django
+\item
+  Spark
+\item
+  Express
+\item
+  React
+\item
+  Bootstrap
+\item
+  Laravel
+\item
+  Gin
+\item
+  Docker
+\item
+  Docker Compose
+\item
+  Kubernets
+\item
+  Terraform
+\stopitemize
+
+\subsection[title={Soft Skill},reference={soft-skill}]
+
+\startitemize
+\item
+  Idiomas:
+
+  \startitemize[packed]
+  \item
+    Português (Nativo),
+  \item
+    Ingles (Intermediário),
+  \item
+    Espanhol (Básico).
+  \stopitemize
+\item
+  Metodologias Ágeis:
+
+  \startitemize[packed]
+  \item
+    Scrum,
+  \item
+    Kanban.
+  \stopitemize
+\stopitemize
+
+\thinrule
+
+\startblockquote
+\useURL[url1][mailto:matheus.elis.silva@gmail.com][][matheus.elis.silva@gmail.com]\from[url1]
+• +55 (12) 99669 4139 • 27 anos\crlf
+\useURL[url2][https://www.linkedin.com/in/matheuselisdasilva]\from[url2]\crlf
+\useURL[url3][https://github.com/MatheusElis]\from[url3]\crlf
+Barueri - São Paulo, Brasil
+\stopblockquote
+
+\stoptext
