@@ -1,100 +1,114 @@
-Johnny Coder
+Matheus Elis da Silva
 ============
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  Bacharel em Física com ênfase em Física Computacional pela
+>  Universidade Federal Fluminense. Engenheiro de Software com experiência
+>  em desenvolvimento de software, criação e manutenção de processos ETL, 
+>  automação de processos de dados, 
+>  arquitetura de software em nuvem e microserviços.
 
 ----
 
-Education
+Formação Acadêmica
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2015-2021
+:   **Bacharel, Física com ênfase em Física Computacional**; Universidade 
+    Federal Fluminense
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+    *Monitor Bolsista no Projeto Sensebiliza (2017-2021)*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+    *Monografia intitulada: Estudo da Dinâmica da Hanseníase no Norte
+    do Brasil Via Modelagem Baseada em Agentes*
 
-    *Minor: Awesomeology*
 
-Experience
+Experiência Profissional
 ----------
 
-**Your Most Recent Work Experience:**
+**Desenvolvedor de Software FullStack Pleno: 2RP Net** - *out de 2022 - Atual*
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+* Desenvolvimento e manutenção de aplicações Backend utilizando as liguagens
+  Python e Golang.
+* Criação e manutenção de pipelines de ETL para o setor de integração de dados.
+* Manutenção e gerenciamento de bancos de dados SQL (PostgreSQL, MySQL e 
+  OracleDB) e NoSQL (MongoDB, Google Datastore e Redis).
+* Criação de Microserviços em ambientes de Nuvem (Google Cloud Run, Google 
+  Cloud Function e Google Kubernetes Engine).
+* Monitoramento de aplicações utilizando Grafana, Google Cloud Logging e 
+  Google Cloud Monitoring.
 
-* First item
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+**Desenvolvedor de Software Back-End Pleno: ZAX** - *mar de 2022 - set de 2022*
 
-**That Other Job You Had**
+* Desenvolvimento e manutenção de aplicações Back-End utilizando as linguagens
+  Python e NodeJS.
+* Desenvolvimento do ERP interno da empresa.
+* Automatização do CI/CD utilizando GitHub Actions e Serverless Framework.
+* Utilização de ferramentas de Nuvem como AWS Lambda, AWS ECS, AWS Cloud Watch
+  e AWS SQS.
+* Manutenção e gerenciamento de bancos de dados SQL (PostgreSQL e MySQL).
 
-Also with a short description.
 
-Technical Experience
+**Desenvolvedor de Software Back-End Pleno: TrackCash** - *jun de 2021 - 
+  abr de 2022*
+
+* Desenvolvimento e manutenção de aplicações de automação de dados utilizando
+  Python.
+* Desenvolvimento e manutenção de aplicações para monitorar rotinas de 
+  automação.
+* Desenvolvimento de aplicações internas de CLI para gerenciar rotinas de ETL.
+
+
+Habilidades Tecnicas
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+**Linguagens de Programação**
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+* Python
+* JavaScript
+* TypeScript
+* Golang
+* HTML
+* CSS
+* Lua
+* PHP
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+**Frameworks e ferramentas**
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+* FastAPI
+* Flask
+* Django
+* Spark
+* Express
+* React
+* Bootstrap
+* Laravel
+* Gin
+* Docker
+* Docker Compose
+* Kubernets
+* Terraform
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
+Soft Skill
 ----------------------------------------
 
-* Human Languages:
+* Idiomas:
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+     * Português (Nativo),
+     * Ingles (Intermediário),
+     * Espanhol (Básico).
 
-* Random tidbit
+* Metodologias Ágeis:
 
-* Other sort of impressive-sounding thing you did
+    * Scrum,
+    * Kanban.
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <matheus.elis.silva@gmail.com> • +55 (12) 99669 4139 • 27 anos\
+> <https://www.linkedin.com/in/matheuselisdasilva>\
+> <https://github.com/MatheusElis>\
+> Barueri - São Paulo, Brasil
