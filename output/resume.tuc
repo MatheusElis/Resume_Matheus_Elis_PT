@@ -255,12 +255,12 @@ utilitydata.structures.lists.collected={
    ["block"]="bodypart",
    ["internal"]=5,
    ["realpage"]=2,
-   ["reference"]="habilidades-tecnicas",
+   ["reference"]="habilidades-técnicas",
    ["section"]=4,
   },
   ["titledata"]={
    ["label"]="subsection",
-   ["title"]="Habilidades Tecnicas",
+   ["title"]="Habilidades Técnicas",
   },
  },
  {

@@ -61,7 +61,7 @@ Experiência Profissional
 * Desenvolvimento de aplicações internas de CLI para gerenciar rotinas de ETL.
 
 
-Habilidades Tecnicas
+Habilidades Técnicas
 --------------------
 
 **Linguagens de Programação**
