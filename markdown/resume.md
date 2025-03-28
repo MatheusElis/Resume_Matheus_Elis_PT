@@ -29,8 +29,10 @@ Experiência Profissional
 
 **Desenvolvedor de Software FullStack Pleno: 2RP Net** - *out de 2022 - Atual*
 
-* Desenvolvimento e manutenção de aplicações Backend utilizando as liguagens
-  Python e Golang.
+* Desenvolvimento e manutenção de aplicações Backend utilizando a liguagem
+  Python e utilizando os frameworks FastAPI e Flask.
+* Desenvolvimento e manutenção de aplicações Backend utilizando a liguagem
+  Golang e utilizando o framework Gin.
 * Criação e manutenção de pipelines de ETL para o setor de integração de dados.
 * Manutenção e gerenciamento de bancos de dados SQL (PostgreSQL, MySQL e 
   OracleDB) e NoSQL (MongoDB, Google Datastore e Redis).
@@ -42,8 +44,10 @@ Experiência Profissional
 
 **Desenvolvedor de Software Back-End Pleno: ZAX** - *mar de 2022 - set de 2022*
 
-* Desenvolvimento e manutenção de aplicações Back-End utilizando as linguagens
-  Python e NodeJS.
+* Desenvolvimento e manutenção de aplicações Back-End utilizando a linguagem
+  Python e utilizando os frameworks Django e FastAPI.
+* Desenvolvimento e manutenção de aplicações Back-End utilizando a linguagem
+  NodeJS e utilizando o framework Express.
 * Desenvolvimento do ERP interno da empresa.
 * Automatização do CI/CD utilizando GitHub Actions e Serverless Framework.
 * Utilização de ferramentas de Nuvem como AWS Lambda, AWS ECS, AWS Cloud Watch
