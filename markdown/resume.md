@@ -27,7 +27,7 @@ Formação Acadêmica
 Experiência Profissional
 ----------
 
-**Desenvolvedor de Software FullStack Pleno: 2RP Net** - *out de 2022 - Atual*
+**Desenvolvedor de Software FullStack Pleno: 2RP Net** - *out de 2022 - abr de 2025*
 
 * Desenvolvimento e manutenção de aplicações Back-End usando a liguagem
   Python e os frameworks FastAPI e Flask.
