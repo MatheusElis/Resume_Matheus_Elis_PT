@@ -27,9 +27,21 @@ Formação Acadêmica
 Experiência Profissional
 ----------
 
-**Desenvolvedor de Software FullStack Pleno: 2RP Net** - *out de 2022 - abr de 2025*
+**Desenvolvedor de Software Back-End Pleno: GFT Technologies** - *abr de 2025 - atual*
 
 * Desenvolvimento e manutenção de aplicações Back-End usando a liguagem
+  Python e os frameworks FastAPI e Flask.
+* Criação e manutenção de pipelines de ETL para o setor de integração de dados.
+* Manutenção e gerenciamento de bancos de dados SQL (PostgreSQL e MySQL) e NoSQL (MongoDB, Google Datastore e Redis).
+* Criação de Microserviços em ambientes de Nuvem (Google Cloud Run e Google Kubernetes Engine).
+* Monitoramento de aplicações utilizando Grafana, New Relic, Datadog, Google Cloud Logging e 
+  Google Cloud Monitoring.
+
+
+**Desenvolvedor de Software FullStack Pleno: 2RP Net** - *out de 2022 - abr de 2025*
+
+* Desenvolvimento e manutenção de aplicações Back-End usa
+GFT Technologiesndo a liguagem
   Python e os frameworks FastAPI e Flask.
 * Desenvolvimento e manutenção de aplicações Back-End usando a liguagem
   Golang e o framework Gin.
@@ -112,7 +124,7 @@ Soft Skill
 
 ----
 
-> <matheus.elis.silva@gmail.com> • +55 (12) 99669 4139 • 27 anos\
+> <matheus.elis.silva@gmail.com> • +55 (12) 99669 4139 • 30 anos\
 > <https://www.linkedin.com/in/matheuselisdasilva>\
 > <https://github.com/MatheusElis>\
 > Barueri - São Paulo, Brasil
