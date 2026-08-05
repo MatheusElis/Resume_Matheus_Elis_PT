@@ -21,6 +21,8 @@ Formação Acadêmica
 
     *Monitor Bolsista no Projeto Sensebiliza (2017-2021)*
 
+    *Iniciação Científica: Modelagem de Epidemias estudando HIV e Tuberculose
+
     *Monografia intitulada: Estudo da Dinâmica da Hanseníase no Norte
     do Brasil Via Modelagem Baseada em Agentes*
 
@@ -39,10 +41,14 @@ setor de empréstimos, integrando o time de Finanças.
 * Reestruturação do fluxo de entrega de documentos comprobatórios aos fundos,
   reduzindo o número de recusas e aumentando a eficiência do processo de
   cessão.
+* Automação de processos manuais de alocação de fundos reduzindo o trabalho
+  manual de times de tesouraria e sustentação.
 * Desenvolvimento e manutenção de aplicações Back-End em Python com os
   frameworks FastAPI e Flask.
 * Criação e manutenção de pipelines de ETL para integração e conciliação de
   dados financeiros.
+* Implementações de microsserviços de comunicação assincronas utilizando Google
+  Pub/Sub e RabitMQ.
 * Orquestração de pipelines no Google Cloud Platform utilizando Kubernetes
   (GKE) e Airflow Composer.
 * Manutenção e gerenciamento de bancos de dados SQL (PostgreSQL e MySQL) e
