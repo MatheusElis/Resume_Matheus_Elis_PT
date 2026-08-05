@@ -3,11 +3,12 @@ Matheus Elis da Silva
 
 ----
 
->  Bacharel em Física com ênfase em Física Computacional pela
->  Universidade Federal Fluminense. Engenheiro de Software com experiência
->  em desenvolvimento de software, criação e manutenção de processos ETL,
->  automação de processos de dados, arquitetura de software em nuvem e
->  microsserviços.
+>  Engenheiro de Software com mais de 4 anos de experiência em
+>  desenvolvimento back-end, criação de microsserviços escaláveis,
+>  pipelines de ETL e arquitetura em nuvem (GCP e AWS). Sólida atuação
+>  em sistemas financeiros de alta volumetria, integração de dados de
+>  crédito e conciliação financeira. Bacharel em Física Computacional
+>  pela Universidade Federal Fluminense.
 
 ----
 
@@ -32,8 +33,12 @@ Experiência Profissional
 Empresa de consultoria com atuação direta no cliente **Jeitto**, empresa do
 setor de empréstimos, integrando o time de Finanças.
 
-* Desenvolvimento das camadas de integração com fundos de investimento,
-  cobrindo os fluxos de cessão de crédito e a conciliação financeira.
+* Desenvolvimento e refatoração das camadas de integração com fundos de
+  investimento, cobrindo os fluxos de cessão de crédito e a conciliação
+  financeira.
+* Reestruturação do fluxo de entrega de documentos comprobatórios aos fundos,
+  reduzindo o número de recusas e aumentando a eficiência do processo de
+  cessão.
 * Desenvolvimento e manutenção de aplicações Back-End em Python com os
   frameworks FastAPI e Flask.
 * Criação e manutenção de pipelines de ETL para integração e conciliação de
@@ -45,6 +50,8 @@ setor de empréstimos, integrando o time de Finanças.
 * Monitoramento de aplicações utilizando Grafana, New Relic, Datadog, Google
   Cloud Logging e Google Cloud Monitoring.
 * Trabalho em metodologia ágil (Scrum).
+* Participação ativa em discussões técnicas de arquitetura e system design
+  para definições arquiteturais da empresa.
 
 
 **Desenvolvedor de Software FullStack Pleno: 2RP Net** - *out de 2022 - abr de 2025*
@@ -52,9 +59,11 @@ setor de empréstimos, integrando o time de Finanças.
 Empresa de consultoria com atuação direta no cliente **Pefisa**, integrando
 o setor de dados da empresa.
 
-* Desenvolvimento de aplicações Back-End para integrar o setor de dados,
-  consolidando os dados de crédito que alimentam o motor de Gestão de Risco
-  e Compliance.
+* Desenvolvimento de microsserviços escaláveis para recepção e alocação de
+  dados de crédito de parceiros em bancos transacionais e históricos,
+  suportando alta volumetria.
+* Desenvolvimento das aplicações responsáveis pela entrega do Motor de Gestão
+  de Risco e Compliance (GRC) para os atendentes das lojas.
 * Desenvolvimento e manutenção de aplicações Back-End usando as linguagens
   Python, Golang e NodeJS.
 * Criação e manutenção de pipelines de ETL para o setor de integração de
@@ -75,8 +84,9 @@ Marketplace de atacado para moda, com atuação no setor de Crédito e Risco.
 
 * Criação e manutenção de microsserviços em Kubernetes usando as linguagens
   Golang, Python e PHP.
-* Manutenções pontuais no Magento, plataforma de e-commerce utilizada pela
-  empresa.
+* Atuação na migração do sistema legado ERP para uma nova versão com
+  tecnologias atuais, melhorando a usabilidade dos times internos e
+  otimizando os setores de análise de crédito e fraude.
 * Automação do CI/CD utilizando GitHub Actions e Serverless Framework.
 * Utilização de ferramentas de nuvem AWS como Lambda, ECS, CloudWatch e SQS.
 * Trabalho em metodologia ágil (Kanban).
@@ -89,7 +99,8 @@ Empresa de conciliação financeira, atendendo vendedores que comercializam
 seus produtos em marketplaces como Amazon e Magazine Luiza.
 
 * Desenvolvimento de aplicações em Python para automatizar a coleta de dados
-  dos clientes nas plataformas de gerenciamento dos marketplaces.
+  dos clientes nas plataformas de gerenciamento dos marketplaces, substituindo
+  processos anteriormente manuais e aumentando a eficiência operacional.
 * Atuação no ERP interno da empresa, escrito em PHP, responsável pela
   conciliação financeira dos clientes entre os marketplaces em que vendem.
 * Desenvolvimento de aplicações internas de CLI para gerenciar rotinas de ETL.
@@ -104,7 +115,7 @@ Habilidades Técnicas
 
 **Linguagens de Programação**
 
-* Python, Golang, JavaScript, TypeScript, PHP, HTML, CSS, Lua
+* Python, Golang, JavaScript, TypeScript, PHP
 
 **Frameworks e Ferramentas**
 
@@ -133,17 +144,10 @@ Habilidades Técnicas
 * Git, GitHub Actions, Serverless Framework
 
 
-Soft Skills
------------
-
-* Metodologias Ágeis: Scrum e Kanban
-* Trabalho em equipe e comunicação com stakeholders
-* Pensamento analítico e resolução de problemas
-* Idiomas: Português (nativo), Inglês (intermediário), Espanhol (básico)
-
 ----
 
-> <matheus.elis.silva@gmail.com> • +55 (12) 99669 4139 • 30 anos\
+> <matheus.elis.silva@gmail.com> • +55 (12) 99669 4139\
+> Idiomas: Português (nativo), Inglês (intermediário avançado), Espanhol (básico)\
 > <https://www.linkedin.com/in/matheuselisdasilva>\
 > <https://github.com/MatheusElis>\
 > Barueri - São Paulo, Brasil

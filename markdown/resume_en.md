@@ -3,10 +3,12 @@ Matheus Elis da Silva
 
 ----
 
->  Bachelor's degree in Physics with an emphasis on Computational Physics
->  from Universidade Federal Fluminense. Software Engineer with experience
->  in software development, creation and maintenance of ETL processes, data
->  process automation, cloud software architecture and microservices.
+>  Software Engineer with over 4 years of experience in back-end
+>  development, building scalable microservices, ETL pipelines and cloud
+>  architecture (GCP and AWS). Strong background in high-volume financial
+>  systems, credit data integration and financial reconciliation.
+>  Bachelor's degree in Computational Physics from Universidade Federal
+>  Fluminense.
 
 ----
 
@@ -31,8 +33,11 @@ Professional Experience
 Consulting company, working directly with the client **Jeitto**, a lending
 company, as part of the Finance team.
 
-* Development of the integration layers with investment funds, covering both
-  credit assignment (cessão) and financial reconciliation flows.
+* Development and refactoring of the integration layers with investment funds,
+  covering both credit assignment and financial reconciliation flows.
+* Restructuring of the fund documentary evidence delivery flow, reducing the
+  number of rejections and increasing the efficiency of the credit assignment
+  process.
 * Development and maintenance of Back-End applications in Python using the
   FastAPI and Flask frameworks.
 * Creation and maintenance of ETL pipelines for financial data integration
@@ -44,6 +49,8 @@ company, as part of the Finance team.
 * Application monitoring using Grafana, New Relic, Datadog, Google Cloud
   Logging and Google Cloud Monitoring.
 * Working under the Scrum agile methodology.
+* Active participation in technical architecture and system design discussions
+  for the company's architectural decisions.
 
 
 **FullStack Software Developer: 2RP Net** - *Oct 2022 - Apr 2025*
@@ -51,9 +58,11 @@ company, as part of the Finance team.
 Consulting company, working directly with the client **Pefisa**, integrating
 the company's data department.
 
-* Development of Back-End applications to integrate the data department,
-  consolidating the credit data that feeds the Risk Management and Compliance
-  engine.
+* Development of scalable microservices for receiving and allocating partner
+  credit data into transactional and historical databases, supporting high
+  data volume.
+* Development of the applications responsible for delivering the Risk
+  Management and Compliance (GRC) engine to in-store representatives.
 * Development and maintenance of Back-End applications using Python, Golang
   and NodeJS.
 * Creation and maintenance of ETL pipelines for the data integration sector.
@@ -73,8 +82,9 @@ Wholesale fashion marketplace, working in the Credit and Risk sector.
 
 * Creation and maintenance of Kubernetes microservices using Golang, Python
   and PHP.
-* Occasional maintenance of Magento, the e-commerce platform used by the
-  company.
+* Migration of the legacy ERP system to a new version with modern
+  technologies, improving internal team usability and optimizing the credit
+  analysis and fraud detection departments.
 * CI/CD automation using GitHub Actions and Serverless Framework.
 * Use of AWS cloud tools such as Lambda, ECS, CloudWatch and SQS.
 * Working under the Kanban agile methodology.
@@ -86,7 +96,8 @@ Financial reconciliation company, serving sellers who sell their products on
 marketplaces such as Amazon and Magazine Luiza.
 
 * Development of Python applications to automate the collection of clients'
-  data from the marketplace management platforms.
+  data from the marketplace management platforms, replacing previously manual
+  processes and increasing operational efficiency.
 * Work on the company's internal ERP, written in PHP, responsible for the
   financial reconciliation of clients across the marketplaces where they sell.
 * Development of internal CLI applications to manage ETL routines.
@@ -100,7 +111,7 @@ Technical Skills
 
 **Programming Languages**
 
-* Python, Golang, JavaScript, TypeScript, PHP, HTML, CSS, Lua
+* Python, Golang, JavaScript, TypeScript, PHP
 
 **Frameworks and Tools**
 
@@ -129,17 +140,10 @@ Technical Skills
 * Git, GitHub Actions, Serverless Framework
 
 
-Soft Skills
------------
-
-* Agile Methodologies: Scrum and Kanban
-* Teamwork and communication with stakeholders
-* Analytical thinking and problem solving
-* Languages: Portuguese (native), English (intermediate), Spanish (basic)
-
 ----
 
-> <matheus.elis.silva@gmail.com> • +55 (12) 99669 4139 • 30 anos\
+> <matheus.elis.silva@gmail.com> • +55 (12) 99669 4139\
+> Languages: Portuguese (native), English (upper intermediate), Spanish (basic)\
 > <https://www.linkedin.com/in/matheuselisdasilva>\
 > <https://github.com/MatheusElis>\
 > Barueri - São Paulo, Brazil
