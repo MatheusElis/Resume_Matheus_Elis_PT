@@ -43,26 +43,40 @@ if not utilitydata.job.passes then utilitydata.job.passes = { } end
 
 utilitydata.job.passes.collected={
  ["itemgroup:itemize:1"]={
-  { 5, 0 },
+  { 7, 0 },
+ },
+ ["itemgroup:itemize:10"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:11"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:12"]={
+  { 4, 0 },
  },
  ["itemgroup:itemize:2"]={
-  { 6, 0 },
- },
- ["itemgroup:itemize:3"]={
-  { 6, 0 },
- },
- ["itemgroup:itemize:4"]={
-  { 3, 0 },
- },
- ["itemgroup:itemize:5"]={
   { 8, 0 },
  },
+ ["itemgroup:itemize:3"]={
+  { 5, 0 },
+ },
+ ["itemgroup:itemize:4"]={
+  { 6, 0 },
+ },
+ ["itemgroup:itemize:5"]={
+  { 1, 0 },
+ },
  ["itemgroup:itemize:6"]={
-  { 13, 0 },
+  { 1, 0 },
  },
  ["itemgroup:itemize:7"]={
-  { 2, 0 },
-  { 2, 0 },
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:8"]={
+  { 1, 0 },
+ },
+ ["itemgroup:itemize:9"]={
+  { 1, 0 },
  },
 }
 
@@ -167,8 +181,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 5, 6, 6, 3, 8, 13, 2 },
-  { 0, 3, 0, 2 },
+  { 0, 7, 8, 5, 6, 1, 1, 1, 1, 1, 1, 1, 4 },
  },
  ["linenote"]={
   { 0 },
@@ -272,13 +285,13 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=6,
-   ["realpage"]=2,
-   ["reference"]="soft-skill",
+   ["realpage"]=3,
+   ["reference"]="soft-skills",
    ["section"]=5,
   },
   ["titledata"]={
    ["label"]="subsection",
-   ["title"]="Soft Skill",
+   ["title"]="Soft Skills",
   },
  },
 }
