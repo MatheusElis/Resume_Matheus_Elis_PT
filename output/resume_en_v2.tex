@@ -1,0 +1,286 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=394b72]
+\definecolor[rulecolor][h=7570b7]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\defineitemgroup[enumerate]
+\setupenumerate[each][fit][itemalign=left,distance=.5em,style={\feature[+][default:tnum]}]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Matheus Elis da
+Silva},reference={matheus-elis-da-silva}]
+
+\thinrule
+
+\startblockquote
+Software Engineer with over 4 years of experience in back-end
+development, building scalable microservices, ETL pipelines and cloud
+architecture (GCP and AWS). Strong background in high-volume financial
+systems, credit data integration and financial reconciliation.
+Bachelor's degree in Computational Physics from Universidade Federal
+Fluminense.
+\stopblockquote
+
+\thinrule
+
+\subsection[title={Academic Education},reference={academic-education}]
+
+\startdescription{2015-2021}
+  {\bf Bachelor's degree in Physics, with an emphasis on Computational
+  Physics}; Universidade Federal Fluminense
+
+  {\em Scholarship Monitor at the Sensebiliza Project (2017-2021)}
+
+  {\em Monograph entitled: Study of the Dynamics of Leprosy in the North
+  of Brazil Via Agent-Based Modeling}
+\stopdescription
+
+\subsection[title={Professional
+Experience},reference={professional-experience}]
+
+{\bf Back-End Software Developer: GFT Technologies} - {\em Apr 2025 -
+Present}
+
+Consulting company, working directly with the client {\bf Jeitto}, a
+lending company, as part of the Finance team.
+
+\startitemize[packed]
+\item
+  Development and refactoring of the integration layers with investment
+  funds, covering both credit assignment and financial reconciliation
+  flows.
+\item
+  Restructuring of the fund documentary evidence delivery flow, reducing
+  the number of rejections and increasing the efficiency of the credit
+  assignment process.
+\item
+  Development and maintenance of Back-End applications in Python using
+  the FastAPI and Flask frameworks.
+\item
+  Creation and maintenance of ETL pipelines for financial data
+  integration and reconciliation.
+\item
+  Pipeline orchestration on Google Cloud Platform using Kubernetes (GKE)
+  and Airflow Composer.
+\item
+  Maintenance and management of SQL (PostgreSQL and MySQL) and NoSQL
+  (MongoDB, Google Datastore and Redis) databases.
+\item
+  Application monitoring using Grafana, New Relic, Datadog, Google Cloud
+  Logging and Google Cloud Monitoring.
+\item
+  Working under the Scrum agile methodology.
+\stopitemize
+
+{\bf FullStack Software Developer: 2RP Net} - {\em Oct 2022 - Apr 2025}
+
+Consulting company, working directly with the client {\bf Pefisa},
+integrating the company's data department.
+
+\startitemize[packed]
+\item
+  Development of scalable microservices for receiving and allocating
+  partner credit data into transactional and historical databases,
+  supporting high data volume.
+\item
+  Development of the applications responsible for delivering the Risk
+  Management and Compliance (GRC) engine to in-store representatives.
+\item
+  Development and maintenance of Back-End applications using Python,
+  Golang and NodeJS.
+\item
+  Creation and maintenance of ETL pipelines for the data integration
+  sector.
+\item
+  Creation of microservices in cloud environments (Google Cloud Run,
+  Google Cloud Functions and Google Kubernetes Engine).
+\item
+  Data pipeline orchestration with Airflow Composer.
+\item
+  Maintenance and management of SQL (PostgreSQL, MySQL and OracleDB) and
+  NoSQL (MongoDB, Google Datastore and Redis) databases.
+\item
+  Application monitoring using Grafana, Google Cloud Logging and Google
+  Cloud Monitoring.
+\item
+  Working under the Scrum agile methodology.
+\stopitemize
+
+{\bf Back-End Software Developer: ZAX} - {\em Mar 2022 - Sept 2022}
+
+Wholesale fashion marketplace, working in the Credit and Risk sector.
+
+\startitemize[packed]
+\item
+  Creation and maintenance of Kubernetes microservices using Golang,
+  Python and PHP.
+\item
+  Migration of the legacy ERP system to a new version with modern
+  technologies, improving internal team usability and optimizing the
+  credit analysis and fraud detection departments.
+\item
+  CI/CD automation using GitHub Actions and Serverless Framework.
+\item
+  Use of AWS cloud tools such as Lambda, ECS, CloudWatch and SQS.
+\item
+  Working under the Kanban agile methodology.
+\stopitemize
+
+{\bf Back-End Software Developer: TrackCash} - {\em June 2021 - Apr
+2022}
+
+Financial reconciliation company, serving sellers who sell their
+products on marketplaces such as Amazon and Magazine Luiza.
+
+\startitemize[packed]
+\item
+  Development of Python applications to automate the collection of
+  clients' data from the marketplace management platforms, replacing
+  previously manual processes and increasing operational efficiency.
+\item
+  Work on the company's internal ERP, written in PHP, responsible for
+  the financial reconciliation of clients across the marketplaces where
+  they sell.
+\item
+  Development of internal CLI applications to manage ETL routines.
+\item
+  Development and maintenance of applications to monitor automation
+  routines.
+\item
+  Use of AWS cloud with tools such as Kubernetes and Lambda.
+\item
+  Working under the Scrum agile methodology.
+\stopitemize
+
+\subsection[title={Technical Skills},reference={technical-skills}]
+
+{\bf Programming Languages}
+
+\startitemize[packed]
+\item
+  Python, Golang, JavaScript, TypeScript, PHP
+\stopitemize
+
+{\bf Frameworks and Tools}
+
+\startitemize[packed]
+\item
+  FastAPI, Flask, Django, Express, Gin, React, Bootstrap, Laravel,
+  Magento
+\stopitemize
+
+{\bf Data and ETL}
+
+\startitemize[packed]
+\item
+  Spark, Apache Airflow (Airflow Composer), Data pipelines
+\stopitemize
+
+{\bf Cloud and Infrastructure}
+
+\startitemize[packed]
+\item
+  Google Cloud Platform (Cloud Run, GKE, Cloud Functions, Datastore),
+  AWS (Lambda, ECS, SQS, CloudWatch), Docker, Docker Compose,
+  Kubernetes, Terraform
+\stopitemize
+
+{\bf Databases}
+
+\startitemize[packed]
+\item
+  PostgreSQL, MySQL, OracleDB, MongoDB, Redis, Google Datastore
+\stopitemize
+
+{\bf Observability}
+
+\startitemize[packed]
+\item
+  Grafana, New Relic, Datadog, Google Cloud Logging, Google Cloud
+  Monitoring
+\stopitemize
+
+{\bf Tools}
+
+\startitemize[packed]
+\item
+  Git, GitHub Actions, Serverless Framework
+\stopitemize
+
+\thinrule
+
+\startblockquote
+\useURL[url1][mailto:matheus.elis.silva@gmail.com][][matheus.elis.silva@gmail.com]\from[url1]
+• +55 (12) 99669 4139\crlf
+Languages: Portuguese (native), English (upper intermediate), Spanish
+(basic)\crlf
+\useURL[url2][https://www.linkedin.com/in/matheuselisdasilva]\from[url2]\crlf
+\useURL[url3][https://github.com/MatheusElis]\from[url3]\crlf
+Barueri - São Paulo, Brazil
+\stopblockquote
+
+\stoptext
